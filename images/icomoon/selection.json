@@ -1,0 +1,78 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M557.157 42.665h-1.344c-247.427-0.373-448.299 199.902-448.672 447.328s199.901 448.3 447.328 448.672h1.344c247.427 0.374 448.298-199.901 448.672-447.328 0.372-247.427-199.901-448.299-447.328-448.672zM661.691 596.543c-28.113 27.963-66.211 43.604-105.878 43.456-82.469-0.43-148.979-67.629-148.549-150.099 0.205-39.479 16.035-77.261 44.015-105.112 27.795-27.645 65.334-43.25 104.534-43.456 82.469 0.43 148.978 67.63 148.549 150.099-0.205 39.48-16.035 77.261-44.017 105.112h1.345z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(33, 150, 243)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 16,
+        "tags": [
+          "krug"
+        ],
+        "colorPermutations": {
+          "117117117117517718413315024313333331": [
+            {
+              "f": 2
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(33, 150, 243)"
+        }
+      ],
+      "properties": {
+        "order": 36,
+        "id": 509,
+        "name": "krug",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
