@@ -43,15 +43,6 @@ p {
   width: 1200px;
 }
 
-.head-container {
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  margin-top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -157,16 +148,12 @@ svg.main-link {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  margin-right: 305px;
 }
 
 .menu-contacts {
   display: flex;
-  text-align: center;
-  line-height: 1.14;
   margin-left: auto;
   padding: 0;
-  margin: 0;
   align-items: center;
 }
 
@@ -483,7 +470,7 @@ svg.main-link {
 .hero-header {
   background: #2f303a;
   padding: 200px 0;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/img-fon.jpg);
 }
 
@@ -530,9 +517,10 @@ img {
 /* team */
 
 .team-member-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   display: flex;
   background: #f5f4fa;
-  padding-top: 0;
 }
 
 .team-list {
@@ -565,18 +553,11 @@ img {
   margin-bottom: 16px;
 }
 
-.member-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  box-sizing: border-box;
-}
-
 .footer-page .logo {
   display: block;
   color: var(--primary-white-color);
   margin-bottom: 20px;
 }
-
 
 .container.filter-container {
   box-sizing: border-box;
@@ -608,8 +589,6 @@ img {
 }
 
 /* portfolio */
-
-
 
 .filter {
   display: flex;
@@ -714,11 +693,11 @@ img {
 }
 
 .footer-link {
-  display: flex;
   justify-content: space-between;
 }
 .footer-link .linked {
-  background-color: rgba(255, 255, 255, 0.1);;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-container {
@@ -727,15 +706,28 @@ img {
 
 .footer-container p {
   margin-top: 0;
-    margin-bottom: 20px;
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--main-white-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 }
 
-.link-item:hover, .link-item:focus {
-  box-shadow: 1px 4px 6px 0px #00000029,
-0px 4px 4px 0px #0000000F,
-0px 1px 1px 0px #0000001F;
+.link-item:hover,
+.link-item:focus {
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
+}
+
+.footer-social {
+  margin-left: 70px;
+}
+
+.linked:hover > .link-icon,
+.linked:focus > .link-icon {
+  fill: var(--accent-color);
+}
+
+.link-icon {
+  margin-left: auto;
+  margin-right: auto;
 }
