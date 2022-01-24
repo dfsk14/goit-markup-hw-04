@@ -674,6 +674,11 @@ img {
   fill: var(--border-partners-company-color);
 }
 
+.link-logotype {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .partners-link:hover,
 .partners-link:focus {
   border: 1px solid var(--accent-color);
@@ -684,12 +689,15 @@ img {
 }
 
 .join {
-  margin-top: 0;
-  margin-bottom: 20px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  color: white;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--main-white-color);
+  text-align: left;
 }
 
 .footer-link {
