@@ -23,13 +23,13 @@
           <!--меню-->
           <ul class="nav menu-nav">
             <li class="menu-nav__link">
-              <a href="./index.html" class="link nav-link">Студия</a>
+              <a href="./index.html" class="link nav-link"> Студия </a>
             </li>
             <li class="menu-nav__link">
-              <a href="./portfolio.html" class="link nav-link">Портфолио</a>
+              <a href="./portfolio.html" class="link nav-link">Портфолио </a>
             </li>
             <li class="menu-nav__link">
-              <a href="./contacts.html" class="link nav-link">Контакты</a>
+              <a href="./contacts.html" class="link nav-link">Контакты </a>
             </li>
           </ul>
           <ul class="menu-contacts">
@@ -53,12 +53,22 @@
         </nav>
       </div>
     </header>
+    <!--модальное окно-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button-close" data-modal-close>
+          <svg class="link-icon" width="11" height="11">
+            <use href="images/svg/sprite.svg#icon-button-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <!--шапка-->
     <main>
       <section class="hero-header">
         <div class="container">
           <h1 class="header-main">Эффективные решения для вашего бизнеса</h1>
-          <button class="button-primary">Заказать услугу</button>
+          <button class="button-primary" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- Наши ценности-->
@@ -120,6 +130,7 @@
             <li class="work-list">
               <img class="img" src="images/tablet.jpg" width="370" alt="планшет" />
             </li>
+
             <li class="work-list">
               <img class="img" src="images/phone.jpg" width="370" alt="телефон" />
             </li>
@@ -315,43 +326,43 @@
           <ul class="partners">
             <li class="partners-image">
               <a href="" class="partners-link">
-                <svg class="partners-logotype" width="41" height="46.7">
+                <svg class="partners-logotype" width="106" height="60">
                   <use href="images/svg/sprite.svg#icon-yaco"></use>
                 </svg>
               </a>
             </li>
             <li class="partners-image">
               <a href="" class="partners-link">
-                <svg class="partners-logotype" width="40" height="52">
-                  <use href="images/svg/sprite.svg#icon-tagline_co"></use>
+                <svg class="partners-logotype" width="106" height="60">
+                  <use href="images/svg/sprite.svg#icon-companyhere"></use>
                 </svg>
               </a>
             </li>
             <li class="partners-image">
               <a href="" class="partners-link">
-                <svg class="partners-logotype" width="43.46" height="41.18">
+                <svg class="partners-logotype" width="106" height="60">
                   <use href="images/svg/sprite.svg#icon-company"></use>
                 </svg>
               </a>
             </li>
             <li class="partners-image">
               <a href="" class="partners-link">
-                <svg class="partners-logotype" width="84.44" height="40.62">
-                  <use href="images/svg/sprite.svg#icon-foster_peters"></use>
+                <svg class="partners-logotype" width="106" height="60">
+                  <use href="images/svg/sprite.svg#icon-foster"></use>
                 </svg>
               </a>
             </li>
             <li class="partners-image">
               <a href="" class="partners-link">
-                <svg class="partners-logotype" width="62.54" height="45.43">
+                <svg class="partners-logotype" width="106" height="60">
                   <use href="images/svg/sprite.svg#icon-brand"></use>
                 </svg>
               </a>
             </li>
             <li class="partners-image">
               <a href="" class="partners-link">
-                <svg class="partners-logotype" width="93.79" height="43.93">
-                  <use href="images/svg/sprite.svg#icon-tag_line_co"></use>
+                <svg class="partners-logotype" width="106" height="60">
+                  <use href="images/svg/sprite.svg#icon-companytag"></use>
                 </svg>
               </a>
             </li>
@@ -363,7 +374,6 @@
     <footer class="footer-page">
       <div class="container footer-container">
         <section class="footer-flex">
-          <!--скрытый h2-->
           <a href="./index.html" class="logo logo-second" aria-current="true"
             ><span class="logo-style">Web</span><span class="logo-footer">Studio</span></a
           >
@@ -414,5 +424,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/modal.js"></script>
   </body>
 </html>
